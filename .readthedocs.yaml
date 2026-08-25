@@ -1,16 +1,9 @@
-# Build documentation
 version: 2
 
+mkdocs:
+  configuration: mkdocs.yml
+
 formats:
-    - pdf
     - htmlzip
+    - pdf
     - epub
-
-python:
-  install:
-        - requirements: requirements.txt
-        - method: pip
-        - path: .
-
-sphinx:
-  configuration: docs/conf.py
