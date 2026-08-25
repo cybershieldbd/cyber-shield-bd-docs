@@ -1,7 +1,8 @@
 site_name: Cyber Shield BD Docs
 site_url: https://cyber-shield-bd-docs.readthedocs.io
+
 theme:
-  name: readthedocs
+  name: material
 
 nav:
     - Home: index.md
