@@ -7,16 +7,3 @@ build:
 
 mkdocs:
   configuration: mkdocs.yml
-
-python:
-  install:
-        - requirements: requirements.txt
-        - method: pip
-      packages:
-                - mkdocs
-                - mkdocs-material
-
-formats:
-    - htmlzip
-    - pdf
-    - epub
