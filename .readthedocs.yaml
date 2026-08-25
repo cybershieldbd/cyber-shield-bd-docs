@@ -1,0 +1,16 @@
+# Build documentation
+version: 2
+
+formats:
+    - pdf
+    - htmlzip
+    - epub
+
+python:
+  install:
+        - requirements: requirements.txt
+        - method: pip
+        - path: .
+
+sphinx:
+  configuration: docs/conf.py
